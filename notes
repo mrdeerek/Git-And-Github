@@ -1,0 +1,65 @@
+GIT
+1) version control system is a tool that helps to track changes in code.
+2) Git is a version control system.
+
+Basically samjhe toh ye ek tarah se history generatre karta hai ki kab koi project add hui kab koi project ka kuch delete hui.
+
+3) it is popular, free and open source, fast and scalable.
+
+Steps or works of Git
+1) Track the history.
+2) Collaborate.
+
+             GITHUB
+Website that allow developer to store and manage their code using git.
+
+https:/github.com
+
+GITHUB Account
+1)create a new repository: xyz-demo
+2)make our first commit.
+
+
+
++++++++++++++++++Setting up Git++++++++++++++++++
+1) Visual Studio Code
+2) Windows (Git Bash)
+3) Mac (Terminal)
+
+git --version
+
+
++++++++++++++++Configuring Git+++++++++++++++++++++++
+
+git configur --global user.name"
+git config -- global user.email"Someone@gmail.com"
+git config --list
+
+++++++++Clone & Status++++++++++++++++++
+Clone = Cloning a repository on our local machine.
+        git clone<-some link->
+
+Status = Display the state of the code.
+        git status
+
+four types of status
+
+1) untracked
+    new files that git doesnot yet track.
+
+2) modified 
+    changed
+
+3) staged 
+    file. ready to be committed
+
+4) unmodified 
+    unchanged
+
+++++++++++++++Add & Commit++++++++++++++++
+
+add = add new or changed file s in your working directory to the git staging area.
+    git add<-file name->
+
+commit = it is the record of change 
+    git commit-m "some message" 
